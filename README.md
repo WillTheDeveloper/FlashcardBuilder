@@ -1,5 +1,7 @@
 # Flashcard Builder
 
+*Parts of the program was generated with Github copilot.*
+
 Tool for students to build flashcards really quick and easy.
 
 ## Features
