@@ -7,6 +7,9 @@
 
 namespace practice{
 
+    void menu();
+
+    void randomorder();
 }
 
 #endif //FLASHCARDBUILDER_PRACTICE_H

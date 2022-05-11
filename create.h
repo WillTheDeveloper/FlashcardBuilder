@@ -8,6 +8,8 @@
 namespace create {
 
     void Test();
+
+    void Setup();
 }
 
 #endif //FLASHCARDBUILDER_CREATE_H

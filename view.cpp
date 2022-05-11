@@ -5,3 +5,8 @@
 #include "view.h"
 
 using namespace view;
+
+void view::list()
+{
+
+}

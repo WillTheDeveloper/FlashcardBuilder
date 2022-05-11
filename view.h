@@ -7,6 +7,7 @@
 
 namespace view {
 
+    void list();
 }
 
 #endif //FLASHCARDBUILDER_VIEW_H

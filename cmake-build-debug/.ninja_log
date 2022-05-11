@@ -6,3 +6,10 @@
 0	175	1652259175254491297	CMakeFiles/FlashcardBuilder.dir/create.cpp.o	232d32435bf95e74
 0	176	1652259175258491274	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
 176	230	1652259175310490986	FlashcardBuilder	65b548519b46fbeb
+1	11	1652262596327615258	CMakeFiles/FlashcardBuilder.dir/view.cpp.o	fe9df5d900cc2bfa
+0	180	1652262596495614455	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
+1	180	1652262596495614455	CMakeFiles/FlashcardBuilder.dir/practice.cpp.o	8242e5edd451af92
+0	207	1652262596523614321	CMakeFiles/FlashcardBuilder.dir/create.cpp.o	232d32435bf95e74
+207	255	1652262596571614093	FlashcardBuilder	65b548519b46fbeb
+0	204	1652262788178670957	CMakeFiles/FlashcardBuilder.dir/create.cpp.o	232d32435bf95e74
+204	258	1652262788230670695	FlashcardBuilder	65b548519b46fbeb

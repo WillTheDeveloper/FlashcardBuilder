@@ -4,6 +4,8 @@
 #include "practice.h"
 
 using namespace create;
+using namespace view;
+using namespace practice;
 
 int main() {
     std::cout << "Hello, World!" << std::endl;
@@ -19,11 +21,13 @@ int main() {
 
     switch (selection) {
         case 1:
-            create::Test();
+            create::Setup();
             break;
         case 2:
+            view::list();
             break;
         case 3:
+            practice::menu();
             break;
     }
 
