@@ -42,4 +42,13 @@ void create::Setup()
     newFile << title << std::endl << content << std::endl;
     newFile.close();
     std::cout << "Created!" << std::endl;
+
+    // Generate an image with a name of the flashcard in red and the content in green
+    std::cout << "Generating image..." << std::endl;
+    std::string image = "../flashcards/" + slug + ".png";
+    std::string command = "convert -size 500x500 xc:black -fill red -pointsize 50 -draw \"text 0,0 '" + name + "'\" -fill green -pointsize 50 -draw \"text 0,50 '" + content + "'\" " + image;
+    system(command.c_str());
+    std::cout << "Image generated!" << std::endl;
+
+
 }
