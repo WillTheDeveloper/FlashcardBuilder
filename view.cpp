@@ -23,10 +23,17 @@ void view::list()
             std::cout << "[" << i << "]: ";
             i++;
 
+
+
+
             std::ifstream file(entry.path());
             std::string line;
             std::getline(file, line);
-            std::cout << line << std::endl;
+            std::cout << line << " ";
+
+            std::cout << "\033[1;31m";
+            std::cout << "("  << entry.path().filename() << ")" << std::endl;
+            std::cout << "\033[0m";
         }
 
         // Show message if the directory is empty

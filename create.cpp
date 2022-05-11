@@ -27,8 +27,18 @@ void create::Setup()
     std::string content;
     std::cin >> content;
 
-    std::cout << "Creating new flashcard called " << name << ".txt" << std::endl;
-    std::ofstream newFile("../flashcards/" + name + ".txt");
+    // Slug the name if it has spaces
+    std::string slug = name;
+    for (char & i : slug)
+    {
+        if (i == ' ')
+        {
+            i = '-';
+        }
+    }
+
+    std::cout << "Creating new flashcard called " << slug << ".txt" << std::endl;
+    std::ofstream newFile("../flashcards/" + slug + ".txt");
     newFile << title << std::endl << content << std::endl;
     newFile.close();
     std::cout << "Created!" << std::endl;
