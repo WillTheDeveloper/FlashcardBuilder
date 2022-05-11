@@ -12,15 +12,40 @@ using namespace view;
 
 void view::list()
 {
-    std::cout << "Listing first line of each .txt file in the current directory:" << std::endl;
+    bool has_flashcards = false;
+
     for (const auto &entry : std::filesystem::directory_iterator("../flashcards"))
     {
+        int i = 1;
+
         if (entry.path().extension() == ".txt")
         {
+            std::cout << "[" << i << "]: ";
+            i++;
+
             std::ifstream file(entry.path());
             std::string line;
             std::getline(file, line);
             std::cout << line << std::endl;
         }
+
+        // Show message if the directory is empty
+        if (i == 1)
+        {
+            std::cout << "No flashcards found" << std::endl;
+        }
+        else
+        {
+            has_flashcards = true;
+        }
+
+
+        if (has_flashcards)
+        {
+            std::cout << "Enter the number of the file you want to view: ";
+            int file_number;
+            std::cin >> file_number;
+        }
     }
+
 }
