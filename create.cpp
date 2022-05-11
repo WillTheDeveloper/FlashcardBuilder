@@ -28,7 +28,7 @@ void create::Setup()
     std::cin >> content;
 
     std::cout << "Creating new flashcard called " << name << ".txt" << std::endl;
-    std::ofstream newFile(name + ".txt");
+    std::ofstream newFile("../flashcards/" + name + ".txt");
     newFile << title << std::endl << content << std::endl;
     newFile.close();
     std::cout << "Created!" << std::endl;

@@ -51,25 +51,25 @@ build cmake_object_order_depends_target_FlashcardBuilder: phony || CMakeFiles/Fl
 
 build CMakeFiles/FlashcardBuilder.dir/main.cpp.o: CXX_COMPILER__FlashcardBuilder_Debug /home/will/CLionProjects/FlashcardBuilder/main.cpp || cmake_object_order_depends_target_FlashcardBuilder
   DEP_FILE = CMakeFiles/FlashcardBuilder.dir/main.cpp.o.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/FlashcardBuilder.dir
   OBJECT_FILE_DIR = CMakeFiles/FlashcardBuilder.dir
 
 build CMakeFiles/FlashcardBuilder.dir/create.cpp.o: CXX_COMPILER__FlashcardBuilder_Debug /home/will/CLionProjects/FlashcardBuilder/create.cpp || cmake_object_order_depends_target_FlashcardBuilder
   DEP_FILE = CMakeFiles/FlashcardBuilder.dir/create.cpp.o.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/FlashcardBuilder.dir
   OBJECT_FILE_DIR = CMakeFiles/FlashcardBuilder.dir
 
 build CMakeFiles/FlashcardBuilder.dir/view.cpp.o: CXX_COMPILER__FlashcardBuilder_Debug /home/will/CLionProjects/FlashcardBuilder/view.cpp || cmake_object_order_depends_target_FlashcardBuilder
   DEP_FILE = CMakeFiles/FlashcardBuilder.dir/view.cpp.o.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/FlashcardBuilder.dir
   OBJECT_FILE_DIR = CMakeFiles/FlashcardBuilder.dir
 
 build CMakeFiles/FlashcardBuilder.dir/practice.cpp.o: CXX_COMPILER__FlashcardBuilder_Debug /home/will/CLionProjects/FlashcardBuilder/practice.cpp || cmake_object_order_depends_target_FlashcardBuilder
   DEP_FILE = CMakeFiles/FlashcardBuilder.dir/practice.cpp.o.d
-  FLAGS = -g -std=gnu++14
+  FLAGS = -g
   OBJECT_DIR = CMakeFiles/FlashcardBuilder.dir
   OBJECT_FILE_DIR = CMakeFiles/FlashcardBuilder.dir
 
