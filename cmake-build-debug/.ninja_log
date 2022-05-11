@@ -1,5 +1,8 @@
 # ninja log v5
-0	187	1652258305056338112	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
-187	246	1652258305116337588	FlashcardBuilder	caa30234d4efb43f
-1	175	1652258483778879533	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
 175	234	1652258483834879107	FlashcardBuilder	caa30234d4efb43f
+1	175	1652258483778879533	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
+1	8	1652259175090492205	CMakeFiles/FlashcardBuilder.dir/practice.cpp.o	8242e5edd451af92
+1	9	1652259175090492205	CMakeFiles/FlashcardBuilder.dir/view.cpp.o	fe9df5d900cc2bfa
+0	175	1652259175254491297	CMakeFiles/FlashcardBuilder.dir/create.cpp.o	232d32435bf95e74
+0	176	1652259175258491274	CMakeFiles/FlashcardBuilder.dir/main.cpp.o	23fe304146692dba
+176	230	1652259175310490986	FlashcardBuilder	65b548519b46fbeb
