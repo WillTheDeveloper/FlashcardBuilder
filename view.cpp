@@ -22,10 +22,6 @@ void view::list()
         {
             std::cout << "[" << i << "]: ";
             i++;
-
-
-
-
             std::ifstream file(entry.path());
             std::string line;
             std::getline(file, line);
@@ -36,7 +32,6 @@ void view::list()
             std::cout << "\033[0m";
         }
 
-        // Show message if the directory is empty
         if (i == 1)
         {
             std::cout << "No flashcards found" << std::endl;

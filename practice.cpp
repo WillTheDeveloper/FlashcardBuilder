@@ -30,6 +30,9 @@ void practice::menu()
         case 2:
             std::cout << "coming soon" << std::endl;
             break;
+        default:
+            std::cout << "invalid selection" << std::endl;
+            break;
     }
 
 }
