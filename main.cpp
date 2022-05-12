@@ -29,6 +29,9 @@ int main() {
         case 3:
             practice::menu();
             break;
+        default:
+            std::cout << "Invalid selection" << std::endl;
+            break;
     }
 
     return 0;
